@@ -39,6 +39,7 @@ class ArticlesController < ApplicationController
     redirect_to articles_path
   end
   
+  # private methods
   private
 
   def set_article
